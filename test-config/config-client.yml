@@ -1,0 +1,12 @@
+server:
+  port: 2002
+spring:
+  application:
+    name: config-client
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://drl:123@localhost:1013/eureka
+    healthcheck:
+      enabled: true
