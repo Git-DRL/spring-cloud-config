@@ -10,3 +10,5 @@ eureka:
       defaultZone: http://drl:123@localhost:1013/eureka
     healthcheck:
       enabled: true
+
+test=123
